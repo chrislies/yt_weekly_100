@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         '/auth': (context) => const LoginOrRegister(),
         '/home': (context) => const HomeView(),
         '/videos': (context) => const VideosView(),
-        '/favorites': (context) => const FavoritesView(),
+        '/favorites': (context) => FavoritesView(),
         '/account': (context) => AccountView(),
       },
       home: const AuthView(),

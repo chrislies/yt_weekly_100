@@ -14,7 +14,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case VideosRoute:
       return _getPageRoute(const VideosView());
     case FavoutesRoute:
-      return _getPageRoute(const FavoritesView());
+      return _getPageRoute(FavoritesView());
     default:
       return _getPageRoute(Container());
   }
