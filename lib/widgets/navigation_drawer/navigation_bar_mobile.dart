@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:yt_weekly_100/routing/route_names.dart';
+import 'package:yt_weekly_100/widgets/navigation_drawer/navbar_item.dart';
 
 class NavigationBarMobile extends StatelessWidget {
   const NavigationBarMobile({super.key});
@@ -11,7 +13,14 @@ class NavigationBarMobile extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text("YouTube Weekly 100"),
+            const SizedBox(
+              child: NavBarItem(
+                img: AssetImage("assets/yt100.png"),
+                navigationPath: HomeRoute,
+                imgWidth: 70,
+                imgHeight: 70,
+              ),
+            ),
             IconButton(
               icon: const Icon(Icons.menu),
               onPressed: () {
