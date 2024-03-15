@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382246569977",
+    "project_id": "yt-weekly-100",
+    "storage_bucket": "yt-weekly-100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382246569977:android:2266e4abd307b5c330df28",
+        "android_client_info": {
+          "package_name": "com.example.yt_weekly_100"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBduiqFe3Om3jLh-vz28i4zOzbh0lGZys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
